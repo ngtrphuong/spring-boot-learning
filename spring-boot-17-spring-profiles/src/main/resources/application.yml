@@ -1,16 +1,16 @@
 #application.yml
 ---
-spring.config.use-legacy-processing: true
+#spring.config.use-legacy-processing: true
 spring.config.activate.on-profile: local
 #spring.profiles.include: common, local
 spring:
-  config:
-    import:
-    - common
-    - local
+  profiles:
+    include:
+    - "common"
+    - "local"
 ---
-spring.config.use-legacy-processing: true
+#spring.config.use-legacy-processing: true
 spring.config.activate.on-profile: aws
-#spring.profiles.include: common, aws
-spring.config.import: common, aws
+spring.profiles.include: common, aws
+#spring.config.import: common, aws
 ---
