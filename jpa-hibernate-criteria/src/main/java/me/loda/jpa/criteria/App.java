@@ -30,7 +30,6 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
-    private final UserRepository userRepository;
     private final CustomUserRepository customUserRepository;
 
     @Bean

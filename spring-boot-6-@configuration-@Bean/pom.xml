@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>spring-boot-6-@configuration-@Bean</artifactId>
+  <artifactId>spring-boot-6-Configuration-Bean</artifactId>
 
 
 </project>

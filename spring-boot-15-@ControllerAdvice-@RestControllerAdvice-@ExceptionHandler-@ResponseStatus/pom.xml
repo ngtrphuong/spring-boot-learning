@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>spring-boot-15-Exception-handling-@ControllerAdvice-@ExceptionHandler</artifactId>
+  <artifactId>spring-boot-15-Exception-handling-ControllerAdvice-ExceptionHandler</artifactId>
 
 
 </project>

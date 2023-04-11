@@ -8,7 +8,7 @@ package me.loda.springsecurityhibernatejwt.payload;
  *    Xin cảm ơn!
  *******************************************************/
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
 
 import lombok.Data;
 

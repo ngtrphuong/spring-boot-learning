@@ -8,13 +8,17 @@ package me.loda.jpa.criteria;
  *    Xin cảm ơn!
  *******************************************************/
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.AccessLevel;
 
 /**
  * Copyright 2019 {@author Loda} (https://loda.me).
@@ -23,9 +27,16 @@ import lombok.Data;
  * @since 12/10/2019
  * Github: https://github.com/loda-kun
  */
+// Apr 04, 2023 (Phuong Nguyen)
+// Fixed issue "No default constructor" from SO: removed @Data and updated the @Builder annotations
+// https://stackoverflow.com/a/34299054/6124251
 @Entity
-@Data
-@Builder
+@Builder(toBuilder = true)
+@AllArgsConstructor(access = AccessLevel.PACKAGE)
+@NoArgsConstructor(access = AccessLevel.PACKAGE)
+@Setter(value = AccessLevel.PACKAGE)
+@Getter
+@Table(name="User_Table")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

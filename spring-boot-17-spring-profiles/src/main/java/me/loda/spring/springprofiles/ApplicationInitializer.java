@@ -8,8 +8,8 @@ package me.loda.spring.springprofiles;
  *    Xin cảm ơn!
  *******************************************************/
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.WebApplicationInitializer;
@@ -30,6 +30,6 @@ public class ApplicationInitializer implements WebApplicationInitializer {
 
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
-        servletContext.setInitParameter("spring.profiles.active", "aws");
+        servletContext.setInitParameter("spring.profiles.active", "local");
     }
 }

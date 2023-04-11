@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>spring-boot-helloworld-@Primary - @Qualifier</artifactId>
+  <artifactId>spring-boot-helloworld-Primary-Qualifier</artifactId>
 
 
 </project>

@@ -26,11 +26,9 @@
 
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-jpamodelgen -->
     <dependency>
-      <groupId>org.hibernate</groupId>
+      <groupId>org.hibernate.orm</groupId>
       <artifactId>hibernate-jpamodelgen</artifactId>
-      <version>5.4.9.Final</version>
-      <scope>provided</scope>
+      <version>6.2.0.Final</version>
     </dependency>
   </dependencies>
-
 </project>

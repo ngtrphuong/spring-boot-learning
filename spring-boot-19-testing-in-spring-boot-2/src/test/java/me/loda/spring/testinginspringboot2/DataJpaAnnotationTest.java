@@ -1,6 +1,6 @@
 package me.loda.spring.testinginspringboot2;
 
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 import javax.sql.DataSource;
 
 import org.assertj.core.api.Assertions;

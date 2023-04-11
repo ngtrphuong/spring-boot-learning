@@ -20,7 +20,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.domain.Specification;
 
 import lombok.RequiredArgsConstructor;
-import me.loda.spring.specification.User.UserType;
 
 /**
  * Copyright 2019 {@author Loda} (https://loda.me).

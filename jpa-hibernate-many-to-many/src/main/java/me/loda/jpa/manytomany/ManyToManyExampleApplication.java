@@ -9,7 +9,7 @@ package me.loda.jpa.manytomany;
  *******************************************************/
 
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -34,7 +34,6 @@ public class ManyToManyExampleApplication implements CommandLineRunner {
     }
 
     // Sử dụng @RequiredArgsConstructor và final để thay cho @Autowired
-    private final PersonRepository personRepository;
     private final AddressRepository addressRepository;
 
     @Override

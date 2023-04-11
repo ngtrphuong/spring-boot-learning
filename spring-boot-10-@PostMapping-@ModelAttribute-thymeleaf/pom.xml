@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>spring-boot-10-@PostMapping-@ModelAttribute-thymeleaf</artifactId>
+  <artifactId>spring-boot-10-PostMapping-ModelAttribute-thymeleaf</artifactId>
 
 
   <dependencies>

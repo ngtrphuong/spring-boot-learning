@@ -10,7 +10,6 @@ package me.loda.spring.conditional;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnResource;
 import org.springframework.context.ApplicationContext;
 
 /**

@@ -18,5 +18,5 @@ import org.springframework.data.repository.NoRepositoryBean;
 public interface AbstractRepository<T, ID extends Serializable> extends JpaRepository<T, ID>,
                                                                         JpaSpecificationExecutor<T>{
 
-    T findById(ID id);
+    Optional<T> findById(ID id);
 }

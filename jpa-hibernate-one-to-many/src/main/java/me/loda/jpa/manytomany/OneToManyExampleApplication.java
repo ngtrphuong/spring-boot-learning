@@ -10,7 +10,7 @@ package me.loda.jpa.manytomany;
 
 import java.util.Collections;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
