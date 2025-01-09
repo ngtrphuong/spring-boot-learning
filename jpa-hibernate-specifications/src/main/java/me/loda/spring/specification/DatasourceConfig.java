@@ -8,6 +8,7 @@ package me.loda.spring.specification;
  *    Xin cảm ơn!
  *******************************************************/
 
+import java.security.SecureRandom;
 import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -36,7 +37,7 @@ public class DatasourceConfig {
     public void initData() {
         // Insert 100 User vào H2 Database sau khi
         // DatasourceConfig được khởi tạo
-        final Random r = new Random();
+        final Random r = new SecureRandom();
         userRepository.saveAll(IntStream.range(0, 100)
                                         .mapToObj(i -> User.builder()
                                                            .name("name-" + i)
